@@ -7,7 +7,7 @@
 5. 数据库设计
 6. 软件体系结构
 ## 前端基础
-1. HTML：w3c，慕课网
+1. [HTML](./knowledgePoint/html)：w3c，慕课网
 2. CSS：w3c，慕课网
 * less
 * flex布局
