@@ -1,5 +1,4 @@
 ![HTML](./imgs/HTML.png)
-![HTML](./imgs/HTML40.png)
 ## HTML
 ### 一、HTML基础
 * HTML定义
