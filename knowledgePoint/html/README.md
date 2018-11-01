@@ -1,25 +1,24 @@
-## HTML基础
-### 定义
-HTML：超文本标记语言。
-### 基础语法
-<details>
-  <summary>HTML基本结构</summary>
-  <pre><code>
-  <html>
-    <head>
-      <title>标题</title>
-    </head>
-    <body>
-      网页主题内容
-    </body>
-  </html>
-  </code></pre>
-</details>
-<details>
-  <summary>HTML标签</summary>
-  一般成对出现，分开开始标签和结束标签。
-</details>
-
-**HTML注释**<br>
-
-## HTML进阶
+## HTML
+### HTML基础
+* HTML定义
+* HTML特点
+* HTML基本结构
+* HTML标签
+* HTML注释
+* DOCTYPE文档类型声明
+* meta标签
+* 文字和段落标签
+* 列表标签
+* 图像和超链接标签
+### HTML表格
+* 基本语法与结构
+* 表格属性
+* 表格嵌套
+### HTML表单
+* <input>标签
+* 下拉菜单和列表标签
+## HTML5
+### HTML5标签变化
+### HTML5网页布局
+### HTML5属性变化
+### HTML5音视频
