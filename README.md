@@ -1,4 +1,5 @@
 # 个人前端知识体系
+![前端体系思维导图](./road-of-fed.png)
 ## 大学计算机基础
 1. 计算机组成原理
 2. 操作系统
@@ -10,7 +11,7 @@
 1. [HTML](./knowledgePoint/html)：w3c，慕课网
 2. CSS：w3c，慕课网
 * less
-* flex布局
+* flex
 3. JavaScript：《JS高级程序设计》，《你不知道的JS》
 4. ECMAScript：《深入浅出ES6》
 ## 前端框架
@@ -26,6 +27,6 @@
 * vuex
 * vue-i18n
 * vue2.x源码解析：《剖析Vue.js内部运行机制》，vue技术内幕(博客)
-6. nodeJs：《深入浅出nodejs》
+6. NodeJs：《深入浅出nodejs》
 ## 前端工程化
-* webpack
+* Webpack
