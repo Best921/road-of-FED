@@ -79,7 +79,7 @@ rm file_name<br>
 普通模式的分支合并，会新建一个commit记录：git merge --no-ff -m "" branch_name<br>
 ![非Fast forward模式的分支合并](./imgs/no-fast-forward.png)
 ### <span id = "fzgl2">解决冲突
-![解决冲突](./imgs/conflict.png)
+![解决冲突](./imgs/conflict.png)<br>
 把Git合并失败的文件手动编辑为我们希望的内容，再提交。<br>
 查看分支合并图：git log --graph --pretty=oneline --abbrev-commit
 ### <span id = "fzgl3">分支管理策略
