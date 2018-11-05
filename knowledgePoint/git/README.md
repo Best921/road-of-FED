@@ -49,7 +49,7 @@ linux团队为管理linux代码而研发的一套分布式版本控制系统。
 修改HEAD指向：git reset --hard commit_id<br>
 PS：HEAD表示当前版本，HEAD^表示上一个版本，HEAD~3表示上三个版本。
 ### <span id = "sgj2">工作区和暂存区
-![工作区和暂存区](./imgs/stage-and-workspace.png)
+![工作区和暂存区](./imgs/stage-and-workspace.png)<br>
 ### <span id = "sgj3">管理修改
 Git跟踪并管理的是修改，而非文件。
 ### <span id = "sgj4">撤销修改
@@ -66,7 +66,7 @@ rm file_name<br>
 ### <span id = "ycck2">将远程仓库与本地仓库相关联(先有本地仓库)
 关联：git remote add origin git@github.com:best921/originProperty.git
 ## <span id = "fzgl">分支管理
-![分支管理](./imgs/git-branch.png)
+![分支管理](./imgs/git-branch.png)<br>
 ### <span id = "fzgl1">创建与合并分支
 查看分支：git branch<br>
 新建分支：git branch branch_name<br>
@@ -77,15 +77,15 @@ rm file_name<br>
 新建+切换分支：git checkout -b branch_name<br>
 合并指定分支到当前分支(默认Fast-forward模式)：git merge branch_name<br>
 普通模式的分支合并，会新建一个commit记录：git merge --no-ff -m "" branch_name
-![非Fast forward模式的分支合并](./imgs/no-fast-forward.png)
+![非Fast forward模式的分支合并](./imgs/no-fast-forward.png)<br>
 ### <span id = "fzgl2">解决冲突
-![解决冲突](./imgs/conflict.png)
+![解决冲突](./imgs/conflict.png)<br>
 把Git合并失败的文件手动编辑为我们希望的内容，再提交。<br>
 查看分支合并图：git log --graph --pretty=oneline --abbrev-commit
 ### <span id = "fzgl3">分支管理策略
 master分支：应该是非常稳定的，也就是仅用来发布新版本，平时不能在上面干活。<br>
 dev分支：不稳定的，在该分支开发，到某个时候，比如1.0版本发布时，再把dev分支合并到master上，在master分支发布1.0版本。
-![分支管理](./imgs/branch-control.png)
+![分支管理](./imgs/branch-control.png)<br>
 ### <span id = "fzgl4">Bug分支
 储藏当前工作现场：git stash<br>
 新建临时分支修复Bug，合并并删除分支。<br>
