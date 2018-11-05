@@ -125,7 +125,6 @@ Git的标签是版本库的快照，其实就是指向某个commit的指针，�
 PS：配置Git的时候，加上--global是针对当前用户起作用的，如果不加，那只针对当前的仓库起作用。
 ### <span id = "zdyg3">搭建Git服务器
 既不想公开源代码，又不想给GitHub付费，可以自己搭建一台Git服务器作为私有仓库使用。
----
 ## 参考资料
 [廖雪峰的git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)<br>
 [官方git文档](https://git-scm.com/book/zh/v2)
